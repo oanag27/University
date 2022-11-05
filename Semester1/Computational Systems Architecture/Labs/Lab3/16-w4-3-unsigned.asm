@@ -55,9 +55,7 @@ segment code use32 class=code
         mov cx,2
         div cx          ;eax=x/2
         
-        add ebx,eax
-        
-        
+        add ebx,eax   ;result in ebx
         
     
         ; exit(0)
