@@ -26,22 +26,21 @@ segment code use32 class=code
         mov al,[b]
         mov ah,0
         add ax,[a]
-        mov bx,ax     ;bx=a+b
+        mov bx,ax       ;bx=a+b
         
         mov ax,100
-        mul bx       ;dx:ax=100*(a+b)
+        mul bx          ;dx:ax=100*(a+b)
         push dx
         push ax
         pop eax
         mov ebx,eax
-        ;convert byte to word
         
         mov ax,3
         mov dx,0
         mov cl,[d]
         mov ch,0
         add cx,[c]
-        div cx ;    ax=3/(c+d)
+        div cx          ;ax=3/(c+d)
         
         sub ebx,eax     ;ebx=100*(a+b)-3/(c+d)
         
@@ -55,7 +54,7 @@ segment code use32 class=code
         mov cx,2
         div cx          ;eax=x/2
         
-        add ebx,eax   ;result in ebx
+        add ebx,eax     ;result in ebx
         
     
         ; exit(0)
