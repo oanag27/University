@@ -19,7 +19,7 @@ segment data use32 class=data
     l1 equ $-s1     ;length of s1 string
     s2 db '1', '2', '3', '4', '5'
     l2 equ $-s2     ;length of s2 string
-    d db 0          ;destination string initialize it
+    d resb l1+l2    ;destination string initialize it
 
 ; our code starts here
 segment code use32 class=code
