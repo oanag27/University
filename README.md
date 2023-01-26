@@ -3,13 +3,13 @@
 ## Year1
   * Semester 1:
  
-    ~ CSA
+    ~ CSA(https://github.com/oanag27/University/tree/main/Semester1/Computational%20Systems%20Architecture/Labs)
     
-    ~ FP
+    ~ FP(https://github.com/oanag27/University/tree/main/Semester1/Fundamentals%20of%20programming)
     
-    ~ ALGEBRA
+    ~ ALGEBRA(https://github.com/oanag27/University/tree/main/Semester1/Algebra)
     
-    ~ MATHEMATICAL ANALYSIS
+    ~ MATHEMATICAL ANALYSIS(https://github.com/oanag27/University/tree/main/Semester1/Mathematical%20analysis)
     
-    ~ COMPUTATIONAL LOGIC
+    ~ COMPUTATIONAL LOGIC(https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
     
