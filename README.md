@@ -2,7 +2,7 @@
 
 ## Year1
   * Semester 1:
-    ~ CSA
+    ~ CSA\n
     ~ FP
     ~ ALGEBRA
     ~ MATHEMATICAL ANALYSIS
