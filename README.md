@@ -13,3 +13,12 @@
     
     ~ [COMPUTATIONAL LOGIC](https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
     
+   * Semester 2:
+   
+    ~ [GEOMETRY]
+   
+    ~ [OOP]
+   
+    ~ [DYNAMIC SYSTEMS]
+  
+    
