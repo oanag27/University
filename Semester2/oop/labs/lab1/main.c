@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-
+/*problem 10*/
 void readVector(int numberOfElements,int vector[])
 {
     /*read a vector from the console
