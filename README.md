@@ -19,6 +19,6 @@
    
     ~ [OOP]
    
-    ~ [DYNAMIC SYSTEMS]
+    ~ [DYNAMIC SYSTEMS](https://github.com/oanag27/University/tree/main/Semester2/dynamic%20systems)
   
     
