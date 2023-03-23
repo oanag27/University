@@ -57,19 +57,6 @@ int updateMedicinePrice(Repository* repository, char* name, int concentration, i
 /// dealloc the space for the repository
 void destroyRepository(Repository* repository);
 
-/// search for medicine which names contain a given substring
-/// \param repository represents the repository
-/// \param string represents the string after which we look in the products names
-/// \param repository represents the new repository in which we add the products which contain the given string
-// DynamicArray* searchElementBySubString(Repository* repository, char* string);
-
-
-/// search for medicine that are short in supply
-/// \param repository represents the repository
-/// \param x represents the number of elements that we are comparing to
-//DynamicArray* searchElementsThatAreShortInSupply(Repository* repository, int x);
-
-
 /// With this function we initialize the repository with 10 datas.
 /// \param repo represents the repository
 void initialiseRepository(Repository* repository);
