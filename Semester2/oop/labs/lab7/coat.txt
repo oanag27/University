@@ -1,0 +1,10 @@
+L,brown,1111,21,https://google.com/image1.jpg
+XL,black,63,24,https://google.com/image2.jpg
+XS,red,134,78,https://google.com/image3.jpg
+XXS,pink,77,90,https://google.com/image4.jpg
+L,yellow,908,56,https://google.com/image5.jpg
+XXL,grey,788,92,https://google.com/image6.jpg
+XS,green,1002,354,https://google.com/image7.jpg
+S,purple,234,123,https://google.com/image8.jpg
+M,orange,74,0,https://google.com/image9.jpg
+L,white,100,10,https://google.com/image10.jpg
