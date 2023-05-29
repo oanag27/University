@@ -3,7 +3,6 @@
 #include "repository.h"
 #include "ui.h"
 #include "iostream"
-#include "tests.h"
 
 using namespace std;
 int main() {
