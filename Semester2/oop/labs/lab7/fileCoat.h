@@ -27,15 +27,6 @@ public:
 
 class CSVFile : public File {
 public:
-    /*void writeCoats() override {
-        std::ofstream file("coats.csv");	// will append data
-        if (!file.is_open())
-            return;
-        for (auto coat : getCoats()) {
-            file << coat;
-        }
-        file.close();
-    }*/
     void writeCoats() override {
         std::ofstream file("coats.csv");
         if (!file.is_open())
