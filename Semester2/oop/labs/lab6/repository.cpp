@@ -12,7 +12,6 @@ vector<Coat> Repository::get_all_coats_by_size(string size)
 		return coat_administrator;
 	}
 	std::vector<Coat> new_coat;
-	//for (int i = 0; i < this->coat_administrator.size(); i++)
 	for(Coat current: coat_administrator)
 	{
 		if (current.getSize() == size)
@@ -40,14 +39,6 @@ bool Repository::removeCoat(Coat new_coat)
 {
 	int index = -1;
 	auto iterator = std::find_if(coat_administrator.begin(), coat_administrator.end(), [&](Coat coat) {return coat.getSize() == new_coat.getSize() && coat.getPhotograph() == new_coat.getPhotograph(); });
-	/*for (int i = 0; i < this->coat_administrator.size(); i++)
-	{
-		if (this->coat_administrator[i].getSize() == new_coat.getSize() && this->coat_administrator[i].getPhotograph() == new_coat.getPhotograph())
-		{
-			index = i;
-			break;
-		}
-	}*/
 	if (iterator == coat_administrator.end())
 	{	return false;}
 	else
