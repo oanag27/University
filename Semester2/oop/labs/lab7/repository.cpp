@@ -31,10 +31,6 @@ void Repository::writeToFile()
 }
 void Repository::writeToFileHTML()
 {
-	//std::ofstream file;
-	//file.open(this->fileNameHtml);
-	//if (!file.is_open())
-	//	throw Exception("The file could not be opened!");
 	HTMLFile htmlFile;
 	// Get the coats from the repository
 	std::vector<Coat> coats = get_all_coats_ui();
@@ -43,14 +39,9 @@ void Repository::writeToFileHTML()
 		htmlFile.addCoat(coat);
 	}
 	htmlFile.writeCoats();
-	//file.close();
 }
 void Repository::writeToFileCSV()
 {
-	//std::ofstream file;
-	//file.open(this->fileNameCsv);
-	//if (!file.is_open())
-	//	throw Exception("The file could not be opened!");
 	CSVFile csvFile;
 	std::vector<Coat> coats = get_all_coats_ui();
 	for (auto const& coat : coats)
@@ -66,7 +57,6 @@ vector<Coat> Repository::get_all_coats()
 
 vector<Coat> Repository::get_all_coats_ui()
 {
-	//writeToFileHTML();
 	return this->shoppingBasket;
 }
 
@@ -78,7 +68,6 @@ vector<Coat> Repository::get_all_coats_by_size(string size)
 		return coat_administrator;
 	}
 	std::vector<Coat> new_coat;
-	//for (int i = 0; i < this->coat_administrator.size(); i++)
 	for (Coat current : coat_administrator)
 	{
 		if (current.getSize() == size)
@@ -92,13 +81,6 @@ vector<Coat> Repository::get_all_coats_by_size(string size)
 
 bool Repository::addCoat(Coat new_coat)
 {
-	/*for (int i = 0; i < this->coat_administrator.size(); i++)
-	{
-		if (this->coat_administrator[i].getSize() == new_coat.getSize() && this->coat_administrator[i].getPhotograph() == new_coat.getPhotograph())
-		{
-			return false;
-		}
-	}*/
 	bool isFound = searchForCoat(new_coat.getSize(), new_coat.getPhotograph());
 	if (isFound == true)
 	{
