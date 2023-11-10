@@ -25,7 +25,7 @@ Welcome to my repository showcasing the projects and assignments from my years a
 ### 🔍 [GEOMETRY](https://github.com/oanag27/University/tree/main/Semester2/geometry)
 
 
-### 🔄 [OOP - Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)https://github.com/oanag27/University/tree/main/Semester2/oop)
+### 🔄 [OOP - Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)
 
 
 ### 🌐 [Data Structures and Algorithms](https://github.com/oanag27/University/tree/main/Semester2/data%20structures%20and%20algorithms)
@@ -39,6 +39,11 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### ⚙️ [Operating Systems](https://github.com/oanag27/University/tree/main/Semester2/operating%20systems)
 
+
+## Year 2
+## Semester 3
+
+### 🚀 [Advanced Programming Methods](https://github.com/oanag27/University/tree/main/Semester3/map)
 
 
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
