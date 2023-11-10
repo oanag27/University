@@ -5,40 +5,42 @@ Welcome to my repository showcasing the projects and assignments from my years a
 ## Year 1
 ## Semester 1
 
-### * [CSA - Computer Systems Architecture](https://github.com/oanag27/University/tree/main/Semester1/Computational%20Systems%20Architecture))
+### 💻 [CSA - Computer Systems Architecture](https://github.com/oanag27/University/tree/main/Semester1/Computational%20Systems%20Architecture)
 
 
-### * [FP - Functional Programming](https://github.com/oanag27/University/tree/main/Semester1/Fundamentals%20of%20programming)
+### 📚 [FP - Functional Programming](https://github.com/oanag27/University/tree/main/Semester1/Fundamentals%20of%20programming)
 
 
-### * [ALGEBRA](https://github.com/oanag27/University/tree/main/Semester1/Algebra)
+### 🧮 [ALGEBRA](https://github.com/oanag27/University/tree/main/Semester1/Algebra)
 
 
-### * [MATHEMATICAL ANALYSIS](https://github.com/oanag27/University/tree/main/Semester1/Mathematical%20analysis)
+### 📊 [MATHEMATICAL ANALYSIS](https://github.com/oanag27/University/tree/main/Semester1/Mathematical%20analysis)
 
 
-### * [COMPUTATIONAL LOGIC](https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
+### 🧠 [COMPUTATIONAL LOGIC](https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
 
 
 ## Semester 2
 
-### * [GEOMETRY](https://github.com/oanag27/University/tree/main/Semester2/geometry)
+### 🔍 [GEOMETRY](https://github.com/oanag27/University/tree/main/Semester2/geometry)
 
 
-### * [OOP - Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)https://github.com/oanag27/University/tree/main/Semester2/oop)
+### 🔄 [OOP - Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)https://github.com/oanag27/University/tree/main/Semester2/oop)
 
 
-### * [Data Structures and Algorithms](https://github.com/oanag27/University/tree/main/Semester2/data%20structures%20and%20algorithms)
+### 🌐 [Data Structures and Algorithms](https://github.com/oanag27/University/tree/main/Semester2/data%20structures%20and%20algorithms)
 
 
-### * [Dynamic Systems](https://github.com/oanag27/University/tree/main/Semester2/dynamic%20systems)
+### 🌀 [Dynamic Systems](https://github.com/oanag27/University/tree/main/Semester2/dynamic%20systems)
 
 
-### * [Graphs](https://github.com/oanag27/University/tree/main/Semester2/graphs)
+### 📈 [Graphs](https://github.com/oanag27/University/tree/main/Semester2/graphs)
 
 
-### * [Operating Systems](https://github.com/oanag27/University/tree/main/Semester2/operating%20systems)
+### ⚙️ [Operating Systems](https://github.com/oanag27/University/tree/main/Semester2/operating%20systems)
 
 
+
+Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
     
