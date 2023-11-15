@@ -43,8 +43,10 @@ Welcome to my repository showcasing the projects and assignments from my years a
 ## Year 2
 ## Semester 3
 
-### 🚀 [Advanced Programming Methods](https://github.com/oanag27/University/tree/main/Semester3/map)
+### 🚀 [Advanced Programming Methods](https://github.com/oanag27/University/tree/main/Semester3/advanced%20programming%20methods)
 
+
+### 🚀 [Functional and Logic Programming](https://github.com/oanag27/University/tree/main/Semester3/functional%20and%20logic%20programming)
 
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
