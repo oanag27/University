@@ -48,6 +48,9 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### 🎭 [Functional and Logic Programming](https://github.com/oanag27/University/tree/main/Semester3/functional%20and%20logic%20programming)
 
+
+### 📊 [Probability and Statistics](https://github.com/oanag27/University/tree/main/Semester3/probability%20and%20statistics)
+
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
     
