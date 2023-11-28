@@ -1,3 +1,4 @@
+--lab1-3
 USE [databases-lab];
 
 create table Users(   --many-one
