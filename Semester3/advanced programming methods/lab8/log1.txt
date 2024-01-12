@@ -1,2 +1,0 @@
-ProgramState{exeStack=MyStack{stack=[(v=(int);(v=ValueExp{e=IntValue{val=2}};print(VarExp{id='v'})))]}, symTable=MyDictionary{dictionary={}}, out=, originalProgram=(v=(int);(v=ValueExp{e=IntValue{val=2}};print(VarExp{id='v'}))), File Table
- []}
