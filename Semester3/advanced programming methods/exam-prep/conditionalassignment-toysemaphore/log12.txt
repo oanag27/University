@@ -1,0 +1,928 @@
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=(int);(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))))]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))), v=(int)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))), v=(int)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))))]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))))]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))), a=(RefType{inner=int})]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))), a=(RefType{inner=int})]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))), v=ValueExp{e=IntValue{val=10}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))), v=ValueExp{e=IntValue{val=10}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), v=ValueExp{e=IntValue{val=32}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), v=ValueExp{e=IntValue{val=32}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=22
+exeStack=MyStack{stack=[]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=(int);(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))))]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))), v=(int)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))), v=(int)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))))]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(a=(RefType{inner=int});(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))))]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))), a=(RefType{inner=int})]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))), a=(RefType{inner=int})]}
+, symTable=MyDictionary{dictionary={v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=10}};(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))), v=ValueExp{e=IntValue{val=10}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))), v=ValueExp{e=IntValue{val=10}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}};(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapAllocation{varName='a', exp=ValueExp{e=IntValue{val=22}}}]}
+, symTable=MyDictionary{dictionary={a=(0, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), ForkStatement{state=(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))), HeapWriting{varName='a', expression=ValueExp{e=IntValue{val=30}}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=22}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), v=ValueExp{e=IntValue{val=32}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}})), v=ValueExp{e=IntValue{val=32}}]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=10}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[(print(VarExp{id='v'});print(HeapReading{expression=VarExp{id='a'}}))]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}}), print(VarExp{id='v'})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[print(HeapReading{expression=VarExp{id='a'}})]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=2
+exeStack=MyStack{stack=[]}
+, symTable=MyDictionary{dictionary={a=(1, int), v=IntValue{val=32}}}
+, out=IntValue{val=10} IntValue{val=30} IntValue{val=32} IntValue{val=30} 
+, File Table[]
+MyHeap{heapMap={1=IntValue{val=30}}, freeAddress=2}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(b=(bool);(c=(int);(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))))))]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(c=(int);(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))))), b=(bool)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(c=(int);(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))))), b=(bool)]}
+, symTable=MyDictionary{dictionary={}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(c=(int);(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(c=(int);(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))), c=(int)]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))), c=(int)]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(b=ValueExp{e=BoolValue{val=true}};(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))), b=ValueExp{e=BoolValue{val=true}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))), b=ValueExp{e=BoolValue{val=true}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=false}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), ConditionalStmt{var='c', exp1=VarExp{id='b'}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), (IF(VarExp{id='b'}) THEN(c=ValueExp{e=IntValue{val=100}})ELSE(c=ValueExp{e=IntValue{val=200}}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), (IF(VarExp{id='b'}) THEN(c=ValueExp{e=IntValue{val=100}})ELSE(c=ValueExp{e=IntValue{val=200}}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), c=ValueExp{e=IntValue{val=100}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))), c=ValueExp{e=IntValue{val=100}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=0}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(print(VarExp{id='c'});(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})), print(VarExp{id='c'})]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'})), print(VarExp{id='c'})]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[(ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}};print(VarExp{id='c'}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), ConditionalStmt{var='c', exp1=ValueExp{e=BoolValue{val=false}}, exp2=ValueExp{e=IntValue{val=100}}, exp3=ValueExp{e=IntValue{val=200}}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), (IF(ValueExp{e=BoolValue{val=false}}) THEN(c=ValueExp{e=IntValue{val=100}})ELSE(c=ValueExp{e=IntValue{val=200}}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), (IF(ValueExp{e=BoolValue{val=false}}) THEN(c=ValueExp{e=IntValue{val=100}})ELSE(c=ValueExp{e=IntValue{val=200}}))]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), c=ValueExp{e=IntValue{val=200}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'}), c=ValueExp{e=IntValue{val=200}}]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=100}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'})]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=200}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[print(VarExp{id='c'})]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=200}}}
+, out=IntValue{val=100} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
+ProgramState{id=1
+exeStack=MyStack{stack=[]}
+, symTable=MyDictionary{dictionary={b=BoolValue{val=true}, c=IntValue{val=200}}}
+, out=IntValue{val=100} IntValue{val=200} 
+, File Table[]
+MyHeap{heapMap={}, freeAddress=1}
+
+}
