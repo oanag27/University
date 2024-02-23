@@ -1,0 +1,379 @@
+package com.example.a7;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.stage.Stage;
+import javafx.util.Pair;
+import model.adt.IProcedureTable;
+import model.adt.MyDictionary;
+import model.adt.MyList;
+import model.adt.MyProcedureTable;
+import model.exception.MyException;
+import model.expression.*;
+import model.statement.*;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import model.type.BoolType;
+import model.type.IntType;
+import model.type.RefType;
+import model.type.StringType;
+import model.value.BoolValue;
+import model.value.IntValue;
+import model.value.StringValue;
+
+public class ChooseProgramController {
+    @FXML
+    private ListView<IStmt> listOfPrograms;
+    @FXML
+    private Label chooseProgramText;
+
+    private RunProgramController runProgramController;
+    //private Map<String, Pair<List<String>, IStmt>> procedureTable = new HashMap<>();
+    private IProcedureTable procedureTable = new MyProcedureTable();
+
+    @FXML
+    public void initialize() throws IOException, MyException {
+        listOfPrograms.setItems(this.getStatements());
+        // get second window
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("runProgramStyle.fxml")); //obtain the URL of the FXML file
+        Stage stage = new Stage();
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), 950, 600);
+            this.runProgramController = fxmlLoader.getController();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        }
+
+        listOfPrograms.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<IStmt>() {
+            @Override
+            public void changed(ObservableValue<? extends IStmt> observableValue, IStmt oldStatement, IStmt newStatement) {
+                String filename = "log" + (listOfPrograms.getSelectionModel().getSelectedIndex() + 1) + ".txt";
+                runProgramController.setStatement(newStatement, filename);
+            }
+        });
+    }
+
+    private ObservableList<IStmt> getStatements() throws MyException {
+        ObservableList<IStmt> exampleList = FXCollections.observableArrayList();
+        IStmt f1 = new CompStmt(
+                new VarDeclStmt("v", new IntType()),
+                new CompStmt(
+                        new AssignStmt("v", new ArithmExp(1, new VarExp("a"), new VarExp("b"))),
+                        new PrintStmt(new VarExp("v"))
+                )
+        );
+        IStmt f2 = new CompStmt(
+                new VarDeclStmt("v", new IntType()),
+                new CompStmt(
+                        new AssignStmt("v", new ArithmExp(3, new VarExp("a"), new VarExp("b"))),
+                        new PrintStmt(new VarExp("v"))
+                )
+        );
+        procedureTable.put("sum", new Pair<>(Arrays.asList("a", "b"), f1));
+        procedureTable.put("product", new Pair<>(Arrays.asList("a", "b"), f2));
+        IStmt[] examples = new IStmt[]{
+                // Example 1
+                new CompStmt(new VarDeclStmt("v", new IntType()),
+                        new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(2))), new PrintStmt(new
+                                VarExp("v")))),
+
+                // Example 2
+                new CompStmt(new VarDeclStmt("a", new IntType()),
+                        new CompStmt(new VarDeclStmt("b", new IntType()),
+                                new CompStmt(new AssignStmt("a", new ArithmExp(1, new ValueExp(new IntValue(2)), new ArithmExp(3, new ValueExp(new IntValue(3)), new ValueExp(new IntValue(5))))),
+                                        new CompStmt(new AssignStmt("b", new ArithmExp(1, new VarExp("a"), new ValueExp(new IntValue(1)))), new PrintStmt(new VarExp("b")))))),
+
+                // Example 3
+                new CompStmt(new VarDeclStmt("a", new BoolType()),
+                        new CompStmt(new VarDeclStmt("v", new IntType()),
+                                new CompStmt(new AssignStmt("a", new ValueExp(new BoolValue(true))),
+                                        new CompStmt(new IfStmt(new VarExp("a"), new AssignStmt("v", new ValueExp(new IntValue(2))), new AssignStmt("v", new ValueExp(new IntValue(3)))), new PrintStmt(new VarExp("v")))))),
+
+                // Add more examples as needed
+                // Example 4
+                new CompStmt(new VarDeclStmt("varf", new StringType()),
+                        new CompStmt(new AssignStmt("varf", new ValueExp(new StringValue("test.in"))),
+                                new CompStmt(new OpenRFile(new VarExp("varf")),
+                                        new CompStmt(new VarDeclStmt("varc", new IntType()),
+                                                new CompStmt(new ReadFile(new VarExp("varf"), "varc"),
+                                                        new CompStmt(new PrintStmt(new VarExp("varc")),
+                                                                new CompStmt(new ReadFile(new VarExp("varf"), "varc"),
+                                                                        new CompStmt(new PrintStmt(new VarExp("varc")),
+                                                                                new CloseRFile(new VarExp("varf")))
+                                                                )
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                ),
+
+                // Example 5
+                new CompStmt(
+                        new VarDeclStmt("v", new RefType(new IntType())),
+                        new CompStmt(
+                                new HeapAllocation("v", new ValueExp(new IntValue(20))),
+                                new CompStmt(
+                                        new VarDeclStmt("a", new RefType(new RefType(new IntType()))),
+                                        new CompStmt(
+                                                new HeapAllocation("a", new VarExp("v")),
+                                                new CompStmt(
+                                                        new PrintStmt(new VarExp("v")),
+                                                        new PrintStmt(new VarExp("a"))
+                                                )
+                                        )
+                                )
+                        )
+                ),
+
+                // Example 6
+                new CompStmt(
+                        new VarDeclStmt("v", new RefType(new IntType())),
+                        new CompStmt(
+                                new HeapAllocation("v", new ValueExp(new IntValue(20))),
+                                new CompStmt(
+                                        new PrintStmt(new HeapReading(new VarExp("v"))),
+                                        new CompStmt(
+                                                new HeapWriting("v", new ValueExp(new IntValue(30))),
+                                                new PrintStmt(new ArithmExp(1, new HeapReading(new VarExp("v")), new ValueExp(new IntValue(5))))
+                                        )
+                                )
+                        )
+                ),
+
+                // Add more examples as needed
+                // Example 7
+                new CompStmt(
+                        new VarDeclStmt("v", new RefType(new IntType())),
+                        new CompStmt(
+                                new HeapAllocation("v", new ValueExp(new IntValue(20))),
+                                new CompStmt(
+                                        new VarDeclStmt("a", new RefType(new RefType(new IntType()))),
+                                        new CompStmt(
+                                                new HeapAllocation("a", new VarExp("v")),
+                                                new CompStmt(
+                                                        new PrintStmt(new HeapReading(new VarExp("v"))),
+                                                        new PrintStmt(new ArithmExp(1, new HeapReading(new HeapReading(new VarExp("a"))), new ValueExp(new IntValue(5))))
+                                                )
+                                        )
+                                )
+                        )
+                ),
+
+                // Example 8
+                new CompStmt(
+                        new VarDeclStmt("v", new RefType(new IntType())),
+                        new CompStmt(
+                                new HeapAllocation("v", new ValueExp(new IntValue(20))),
+                                new CompStmt(
+                                        new VarDeclStmt("a", new RefType(new RefType(new IntType()))),
+                                        new CompStmt(
+                                                new HeapAllocation("a", new VarExp("v")),
+                                                new CompStmt(
+                                                        new HeapAllocation("v", new ValueExp(new IntValue(30))),
+                                                        new PrintStmt(new HeapReading(new HeapReading(new VarExp("a")))))
+                                        )
+                                )
+                        )
+                ),
+
+                //Example 9
+                new CompStmt(
+                        new VarDeclStmt("v", new IntType()),
+                        new CompStmt(
+                                new AssignStmt("v", new ValueExp(new IntValue(4))),
+                                new CompStmt(
+                                        new WhileStatement(new RelationalExp(new VarExp("v"), new ValueExp(new IntValue(0)), ">"),
+                                                new CompStmt(
+                                                        new PrintStmt(new VarExp("v")),
+                                                        new AssignStmt("v", new ArithmExp(2, new VarExp("v"), new ValueExp(new IntValue(1))))
+                                                )
+                                        ),
+                                        new PrintStmt(new VarExp("v"))
+                                )
+                        )
+                ),
+
+                // Example 10
+                new CompStmt(
+                        new VarDeclStmt("v", new IntType()),
+                        new CompStmt(
+                                new VarDeclStmt("a", new RefType(new IntType())),
+                                new CompStmt(
+                                        new AssignStmt("v", new ValueExp(new IntValue(10))),
+                                        new CompStmt(
+                                                new HeapAllocation("a", new ValueExp(new IntValue(22))),
+                                                new CompStmt(
+                                                        new ForkStatement(
+                                                                new CompStmt(
+                                                                        new HeapWriting("a", new ValueExp(new IntValue(30))),
+                                                                        new CompStmt(
+                                                                                new AssignStmt("v", new ValueExp(new IntValue(32))),
+                                                                                new CompStmt(
+                                                                                        new PrintStmt(new VarExp("v")),
+                                                                                        new PrintStmt(new HeapReading(new VarExp("a")))
+                                                                                )
+                                                                        )
+                                                                )
+                                                        ),
+                                                        new CompStmt(
+                                                                new PrintStmt(new VarExp("v")),
+                                                                new PrintStmt(new HeapReading(new VarExp("a")))
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                ),
+
+                // Example 11
+                new CompStmt(
+                        new VarDeclStmt("counter", new IntType()),
+                        new CompStmt(
+                                new VarDeclStmt("a", new RefType(new IntType())),
+                                new CompStmt(
+                                        new WhileStatement(
+                                                new RelationalExp(
+                                                        new VarExp("counter"),
+                                                        new ValueExp(new IntValue(10)),
+                                                        "<"
+                                                ),
+                                                new CompStmt(
+                                                        new ForkStatement(
+                                                                new ForkStatement(
+                                                                        new CompStmt(
+                                                                                new HeapAllocation("a", new VarExp("counter")),
+                                                                                new PrintStmt(new HeapReading(new VarExp("a")))
+                                                                        )
+                                                                )
+                                                        ),
+                                                        new AssignStmt("counter", new ArithmExp(
+                                                                1,
+                                                                new VarExp("counter"),
+                                                                new ValueExp(new IntValue(1))
+                                                        ))
+                                                )
+                                        ),
+                                        new PrintStmt(new VarExp("counter"))
+                                )
+                        )
+                ),
+                // Example 12
+                //v=10;
+                //(fork(v=v-1;v=v-1;print(v)); sleep(10);print(v*10)
+                // The final Out should be {8,100}
+                new CompStmt(
+                        new VarDeclStmt("v", new IntType()),
+                        new CompStmt(
+                                new AssignStmt("v", new ValueExp(new IntValue(10))),
+                                new CompStmt(
+                                        new ForkStatement(
+                                                new CompStmt(
+                                                        new AssignStmt("v", new ArithmExp(
+                                                                2,
+                                                                new VarExp("v"),
+                                                                new ValueExp(new IntValue(1))
+                                                        )),
+                                                        new CompStmt(
+                                                                new AssignStmt("v", new ArithmExp(
+                                                                        2,
+                                                                        new VarExp("v"),
+                                                                        new ValueExp(new IntValue(1))
+                                                                )),
+                                                                new PrintStmt(new VarExp("v"))
+                                                        )
+                                                )
+                                        ),
+                                        new CompStmt(
+                                                new SleepStmt(10),
+                                                new PrintStmt(new ArithmExp(
+                                                        3,
+                                                        new VarExp("v"),
+                                                        new ValueExp(new IntValue(10))
+                                                ))
+                                        )
+                                )
+                        )
+                ),
+                // Example 13
+                // procedure sum(a,b) v=a+b;print(v)
+                // procedure product(a,b) v=a*b;print(v)
+                // and the main program is
+                // v=2;w=5;call sum(v*10,w);print(v);
+                // fork(call product(v,w);
+                // fork(call sum(v,w)))
+                // The final Out should be {25,2,10,7}
+                new CompStmt(
+                        new VarDeclStmt("v", new IntType()),
+                        new CompStmt(
+                                new AssignStmt("v", new ValueExp(new IntValue(2))),
+                                new CompStmt(
+                                        new VarDeclStmt("w", new IntType()),
+                                        new CompStmt(
+                                                new AssignStmt("w", new ValueExp(new IntValue(5))),
+                                                new CompStmt(
+                                                        new FunctionCallStmt(
+                                                                "sum",
+                                                                Arrays.asList(
+                                                                        new ArithmExp(3, new VarExp("v"), new ValueExp(new IntValue(10))),
+                                                                        new VarExp("w")
+                                                                )
+                                                        ),
+                                                        new CompStmt(
+                                                                new PrintStmt(new VarExp("v")),
+                                                                new CompStmt(
+                                                                        new ForkStatement(
+                                                                        new FunctionCallStmt(
+                                                                                "product",
+                                                                                Arrays.asList(
+                                                                                        new VarExp("v"),
+                                                                                        new VarExp("w")
+                                                                                )
+                                                                        )),
+                                                                        new ForkStatement(
+                                                                                new FunctionCallStmt(
+                                                                                        "sum",
+                                                                                        Arrays.asList(
+                                                                                                new VarExp("v"),
+                                                                                                new VarExp("w")
+                                                                                        )
+                                                                                )
+                                                                        )
+                                                                )
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                ),
+
+        };
+
+        for (IStmt example : examples) {
+            try {
+                example.typecheck(new MyDictionary<>());
+                exampleList.add(example);
+            } catch (MyException exception) {
+                Alert error = new Alert(Alert.AlertType.ERROR);
+                error.setContentText("Program that did not pass:\n" + example.toString() + "\n due to:\n" + exception.getMessage());
+                error.showAndWait();
+            }
+        }
+        return exampleList;
+    }
+}
