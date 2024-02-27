@@ -5,27 +5,27 @@ Welcome to my repository showcasing the projects and assignments from my years a
 ## Year 1
 ## Semester 1
 
-### 💻 [CSA - Computer Systems Architecture](https://github.com/oanag27/University/tree/main/Semester1/Computational%20Systems%20Architecture)
+### 💻 [Computer Systems Architecture](https://github.com/oanag27/University/tree/main/Semester1/Computational%20Systems%20Architecture)
 
 
-### 📚 [FP - Functional Programming](https://github.com/oanag27/University/tree/main/Semester1/Fundamentals%20of%20programming)
+### 📚 [Functional Programming](https://github.com/oanag27/University/tree/main/Semester1/Fundamentals%20of%20programming)
 
 
-### 🧮 [ALGEBRA](https://github.com/oanag27/University/tree/main/Semester1/Algebra)
+### 🧮 [Algebra](https://github.com/oanag27/University/tree/main/Semester1/Algebra)
 
 
-### 📊 [MATHEMATICAL ANALYSIS](https://github.com/oanag27/University/tree/main/Semester1/Mathematical%20analysis)
+### 📊 [Mathematical Analysis](https://github.com/oanag27/University/tree/main/Semester1/Mathematical%20analysis)
 
 
-### 🧠 [COMPUTATIONAL LOGIC](https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
+### 🧠 [Computational Logic](https://github.com/oanag27/University/tree/main/Semester1/Computational%20logic)
 
 
 ## Semester 2
 
-### 🔍 [GEOMETRY](https://github.com/oanag27/University/tree/main/Semester2/geometry)
+### 🔍 [Geometry](https://github.com/oanag27/University/tree/main/Semester2/geometry)
 
 
-### 🔄 [OOP - Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)
+### 🔄 [Object-Oriented Programming](https://github.com/oanag27/University/tree/main/Semester2/oop)
 
 
 ### 🌐 [Data Structures and Algorithms](https://github.com/oanag27/University/tree/main/Semester2/data%20structures%20and%20algorithms)
