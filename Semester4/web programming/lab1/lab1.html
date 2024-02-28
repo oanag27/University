@@ -1,0 +1,104 @@
+<!--Create a single HTML web page for a subject you like (e.g. personal home page, photo collection, movie stars, cars etc.). You can NOT use any CSS or Javascript on your web page! Only basic HTML language. The web page should be HTML5 valid. You will have to use the following HTML tags in your web page: <img>,<a>,<table>,<br>,<hr>,<p>,<b>,<div>,<ul>, <li>,<section>,<article>,<footer>,<header>,<aside>,<nav>, <svg>,<audio>,<video>,<figure>,<figurecaption>,<main>. Also you should specify the type of document using <!Doctype>. The page must be at least one screen long and at most 2 screens long (using a resolution of 1024x768 pixels). The textual content of the page should be relevant to the chosen subject (not "lorem ipsum" text). <br/><br/> This single web page can be edited using any editor you want and can be presented on any browser you prefer.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Skincare Essentials</title>
+  </head>
+  <body>
+    <header>
+      <h1><b>Skincare Essentials</b></h1>
+      <nav>
+        <ul>
+          <li><a href="#cleansers">Cleansers</a></li>
+          <li><a href="#moisturizers">Moisturizers</a></li>
+          <li><a href="#serums">Serums</a></li>
+          <li><a href="#sunscreens">Sunscreens</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="cleansers">
+        <h2>Cleansers</h2>
+        <article>
+          <p>
+            Start your skincare routine with a gentle cleanser to remove
+            impurities and prepare your skin for the next steps. Whether you
+            prefer foaming cleansers, cleansing oils, or micellar waters, choose
+            a formula that suits your skin type.
+          </p>
+          <table>
+            <tr>
+              <th>Cleanser Type</th>
+              <th>Suitable Skin Types</th>
+            </tr>
+            <tr>
+              <td>Foaming Cleanser</td>
+              <td>Oily or Combination Skin</td>
+            </tr>
+            <tr>
+              <td>Cleansing Oil</td>
+              <td>Dry or Sensitive Skin</td>
+            </tr>
+            <tr>
+              <td>Micellar Water</td>
+              <td>All Skin Types</td>
+            </tr>
+          </table>
+          <br />
+          <hr />
+        </article>
+      </section>
+
+      <section id="moisturizers">
+        <h2>Moisturizers</h2>
+        <figure>
+          <img src="moisturizer.jpg" />
+          <figurecaption>Jar of moisturizer</figurecaption>
+        </figure>
+      </section>
+
+      <section id="serums">
+        <h2>Serums</h2>
+      </section>
+
+      <section id="sunscreens">
+        <h2>Sunscreens</h2>
+        <figure>
+          <img src="spf.jpg" />
+          <figurecaption>Tube of sunscreen</figurecaption>
+        </figure>
+      </section>
+    </main>
+    <aside>
+      <h2>Skincare Tips</h2>
+      <ul>
+        <li>Drink plenty of water.</li>
+        <li>Avoid over-exfoliating.</li>
+      </ul>
+    </aside>
+    <svg width="100" height="100">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="green"
+        stroke-width="4"
+        fill="yellow"
+      />
+    </svg>
+    <video autoplay controls>
+      <source
+        src="https://youtu.be/miqNZlLyweM?si=h9lTJH5aLIYzCdF_"
+        type="video/mp4"
+      />
+      Browser does not support the video tag.
+    </video>
+    <div>
+      <audio controls>
+        <source src="audio.mp3" />
+      </audio>
+    </div>
+    <footer>@2024 Oana Gog</footer>
+  </body>
+</html>
