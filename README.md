@@ -57,6 +57,10 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ## Semester 4
 
+### 🎨 [Web Programming](https://github.com/oanag27/University/tree/main/Semester4/web%20programming)
+
+### 🤖 [Artificial Intelligence](https://github.com/oanag27/University/tree/main/Semester4/artificial%20intelligence/lab1)
+
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
     
