@@ -1,0 +1,150 @@
+<!--17. Write a web page which contains a vertical menu that mimics the "windows start menu". 
+    The menu is vertical and each menu item can contain a sumbenu in the right side and each item from 
+    that submenu can also expand (when the mouse is over it) to a submenu on the right side and so on..-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vertical menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="menu">
+      <ul>
+        <li class="menu-item">
+          My Account
+          <ul class="submenu">
+            <li class="submenu-item">
+              Personal Information
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">Profile</li>
+                <li class="sub-submenu-item">Contact Details</li>
+                <li class="sub-submenu-item">Preferences</li>
+              </ul>
+            </li>
+            <li class="submenu-item">Logout</li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          Games
+          <ul class="submenu">
+            <li class="submenu-item">
+              Adventure
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">The Legend of Zelda</li>
+                <li class="sub-submenu-item">Assassin's Creed</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Puzzle
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">Tetris</li>
+                <li class="sub-submenu-item">Candy Crush</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          Pictures
+          <ul class="submenu">
+            <li class="submenu-item">
+              Family Albums
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">2010-2015</li>
+                <li class="sub-submenu-item">2016-2020</li>
+                <li class="sub-submenu-item">2021</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Travel Memories
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">Paris Trip</li>
+                <li class="sub-submenu-item">Tokyo Adventure</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Events
+              <ul class="sub-submenu">
+                <li class="sub-submenu-item">Wedding</li>
+                <li class="sub-submenu-item">Birthday</li>
+                <li class="sub-submenu-item">Graduation</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">Pets</li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          Documents
+          <ul class="submenu">
+            <li class="submenu-item">
+              Personal Files
+              <ul class="sub-submenu">
+                <li>Resume</li>
+                <li>Financial Records</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Work Documents
+              <ul class="sub-submenu">
+                <li>Reports</li>
+                <li>Presentations</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">Projects</li>
+            <li class="submenu-item">Notes</li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          Settings
+          <ul class="submenu">
+            <li class="submenu-item">
+              Display
+              <ul class="sub-submenu">
+                <li>Brightness</li>
+                <li>Resolution</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Sound
+              <ul class="sub-submenu">
+                <li>Volume</li>
+                <li>Notifications</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">
+              Network
+              <ul class="sub-submenu">
+                <li>Wi-Fi</li>
+                <li>Bluetooth</li>
+              </ul>
+            </li>
+
+            <li class="submenu-item">Accessibility</li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          Power
+          <ul class="submenu">
+            <li class="submenu-item">Shutdown</li>
+            <li class="submenu-item">Sleep</li>
+            <li class="submenu-item">Restart</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

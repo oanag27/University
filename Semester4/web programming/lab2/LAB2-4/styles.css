@@ -1,0 +1,102 @@
+/* .container {
+  margin-top: 50px;
+}
+
+.glow {
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+    0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+.shadow {
+  font-size: 24px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fire {
+  font-size: 24px;
+  color: #ff6a00;
+  background: -webkit-linear-gradient(
+    45deg,
+    #ff0000,
+    #ff6a00,
+    #ff0000,
+    #ff6a00,
+    #ff0000
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fire 3s ease-in-out infinite alternate-reverse;
+}
+@keyframes fire {
+  0% {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff6a00, 0 0 30px #ff0000,
+      0 0 40px #ff6a00;
+  }
+  100% {
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #ff6a00, 0 0 60px #ff0000,
+      0 0 80px #ff6a00;
+  }
+}
+
+.underline {
+  display: inline-block;
+}
+
+.underline span {
+  position: relative;
+}
+
+.underline span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background-color: #ff00de;
+  animation: underline 1s infinite alternate;
+}
+
+@keyframes underline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+} */
+.glow {
+  color: rgb(233, 143, 113);
+  text-shadow: 0 0 25px rgb(212, 24, 74);
+}
+
+.fire {
+  animation: animation 1.5s alternate infinite;
+  color: rgb(186, 25, 30);
+}
+
+@keyframes animation {
+  from {
+    text-shadow: 0 0 1px #fefcc9, 1px -1px 2px #feec85, -2px -2px 3px #ffae34,
+      2px -4px 4px #ec760c, -2px -6px 5px #cd4606, 0 -8px 6px #973716,
+      1px -9px 7px #451b0e;
+  }
+  to {
+    text-shadow: 0 0 3px #fefcc9, 2px -2px 6px #fefcc9, -4px -4px 8px #feec85,
+      4px -8px 8px #ffae34, -4px -10px 12px #ec760c, 2 -16px 14px #cd4606,
+      2px -18px 16px #973716;
+  }
+}
+
+.shadow {
+  color: rgb(124, 207, 185);
+  text-shadow: -8px 8px 18px #811818;
+}
+
+.underline {
+  color: rgb(73, 124, 227);
+  text-shadow: 0 3px 0 #351019;
+}
