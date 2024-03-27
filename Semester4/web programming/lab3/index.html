@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TutorialsPoint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="accent-header"
+      style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+    >
+      <nav class="accent-nav__content">
+        <ul class="accent-nav__list">
+          <li class="accent-nav__item">
+            <a class="accent-nav__link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M303.5 13.7L288 .5 272.5 13.7l-264 224 31.1 36.6L64 253.5V488v24H88 488h24V488 253.5l24.5 20.8 31.1-36.6-264-224zM112 464V212.8L288 63.5 464 212.8V464H384V296 272H360 216 192v24V464H112zm128 0V320h96V464H240z"
+                ></path>
+              </svg>
+              Home
+            </a>
+          </li>
+          <li class="accent-nav__item">
+            <a class="accent-nav__link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  d="M376.5 1.8l-7.3 22.8-144 448-7.3 22.8 45.7 14.7 7.3-22.8 144-448 7.3-22.8L376.5 1.8zm61.6 135.3l17.5 16.4L564.9 256 455.6 358.5l-17.5 16.4 32.8 35 17.5-16.4 128-120L635.1 256l-18.7-17.5-128-120-17.5-16.4-32.8 35zm-269-35l-17.5 16.4-128 120L4.9 256l18.7 17.5 128 120 17.5 16.4 32.8-35-17.5-16.4L75.1 256 184.4 153.5l17.5-16.4-32.8-35z"
+                ></path>
+              </svg>
+              Coding Ground
+            </a>
+          </li>
+          <li class="accent-nav__item">
+            <a class="accent-nav__link"
+              ><svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M160 48V96H352V48c0-8.8-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zM128 96V48c0-26.5 21.5-48 48-48H336c26.5 0 48 21.5 48 48V96h64c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64zm240 32H144 128V448H384V128H368zM64 128c-17.7 0-32 14.3-32 32V416c0 17.7 14.3 32 32 32H96V128H64zM448 448c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H416V448h32z"
+                ></path>
+              </svg>
+              Jobs
+            </a>
+          </li>
+          <li class="accent-nav__item">
+            <a class="accent-nav__link"
+              ><svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M56 32H32V56 400H80V80H496V400h48V56 32H520 56zM224 352v24 56H24 0v48H24 224h24H392h24H552h24V432H552 416V376 352H392 248 224zm144 48v32H272V400h96z"
+                ></path>
+              </svg>
+              Whiteboard</a
+            >
+          </li>
+          <li class="accent-nav__item">
+            <a class="accent-nav__link"
+              ><svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M33.9 366.1L160.4 239.6l33.9 33.9L67.9 400 112 444.1l95.4-95.4 17.9 17.9 16 16-95.4 95.4L112 512 78.1 478.1 33.9 433.9 0 400l33.9-33.9zM224 144.8V96 80l-7.3-5.5C245.1 29.7 295.1 0 352 0c13.5 0 26.7 1.7 39.3 4.9c17 4.3 33 11.3 47.3 20.6L403.5 60.5 352 112v48h48l51.5-51.5 35.1-35.1c9.3 14.4 16.3 30.3 20.6 47.3c3.2 12.6 4.9 25.7 4.9 39.3c0 57.2-30 107.3-75.1 135.6l-35.2-35.2c35.8-17.8 60.8-54.1 62.3-96.5l-30 30L419.9 208H400 352 304V160 112 92.1l14.1-14.1 30-30C288 50.1 240 99.5 240 160l0 .8-16-16zM287 321l-129-129H96L0 64 64 0 192 96v62.1L321 287l31-31L512 416l-96 96L256 352l31-31z"
+                ></path>
+              </svg>
+              Tools</a
+            >
+          </li>
+        </ul>
+        <ul class="flex-group accent-nav__right-list">
+          <li class="accent-nav__item">
+            <button
+              class="accent-nav__button theme-toggle"
+              aria-expanded="false"
+            ></button>
+          </li>
+          <li class="accent-nav__item" style="margin-right: 6px">
+            <a class="accent-nav__link">
+              <svg
+                xmlns="https://www.w3.org/2000/svg"
+                width="20"
+                height="16"
+                viewBox="0 0 20 16"
+                fill="none"
+              >
+                <path
+                  d="M4.54199 9.72852C5.69023 9.72852 6.62402 8.79472 6.62402 7.64648C6.62402 6.49824 5.69023 5.56445 4.54199 5.56445C3.39375 5.56445 2.45996 6.49824 2.45996 7.64648C2.45996 8.79472 3.39375 9.72852 4.54199 9.72852ZM4.54199 6.60547C5.11611 6.60547 5.58301 7.07236 5.58301 7.64648C5.58301 8.2206 5.11611 8.6875 4.54199 8.6875C3.96787 8.6875 3.50098 8.2206 3.50098 7.64648C3.50098 7.07236 3.96787 6.60547 4.54199 6.60547ZM8.18555 14.4131C8.18555 14.7009 7.95236 14.9336 7.66504 14.9336C7.37772 14.9336 7.14453 14.7009 7.14453 14.4131C7.14453 12.978 5.97703 11.8105 4.54199 11.8105C3.10695 11.8105 1.93945 12.978 1.93945 14.4131C1.93945 14.7009 1.70627 14.9336 1.41895 14.9336C1.13163 14.9336 0.898438 14.7009 0.898438 14.4131C0.898438 12.4044 2.53283 10.7695 4.54199 10.7695C6.55115 10.7695 8.18555 12.4044 8.18555 14.4131Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M6.46707 10.7543C6.02638 10.799 5.36206 11.6595 5.30469 12.0775C5.64176 12.5905 7.09049 14.9075 7.13752 14.9601C7.18455 15.0126 7.27778 15.3001 9.01839 15.0401C8.83959 14.6037 6.91844 10.7085 6.46707 10.7543Z"
+                  fill="#2C9D30"
+                ></path>
+                <path
+                  d="M9.42806 8.92058C10.7546 8.92058 11.8334 7.84179 11.8334 6.51526C11.8334 5.18872 10.7546 4.10994 9.42806 4.10994C8.10153 4.10994 7.02274 5.18872 7.02274 6.51526C7.02274 7.84179 8.10153 8.92058 9.42806 8.92058ZM9.42806 5.3126C10.0913 5.3126 10.6307 5.85199 10.6307 6.51526C10.6307 7.17853 10.0913 7.71792 9.42806 7.71792C8.7648 7.71792 8.2254 7.17853 8.2254 6.51526C8.2254 5.85199 8.7648 5.3126 9.42806 5.3126ZM13.6374 14.3326C13.6374 14.6651 13.368 14.9339 13.036 14.9339C12.7041 14.9339 12.4347 14.6651 12.4347 14.3326C12.4347 12.6747 11.0859 11.3259 9.42806 11.3259C7.7702 11.3259 6.42141 12.6747 6.42141 14.3326C6.42141 14.6651 6.15202 14.9339 5.82008 14.9339C5.48815 14.9339 5.21875 14.6651 5.21875 14.3326C5.21875 12.012 7.10693 10.1232 9.42806 10.1232C11.7492 10.1232 13.6374 12.012 13.6374 14.3326ZM19.6507 3.50861V8.31925C19.6507 9.97712 18.3019 11.3259 16.644 11.3259H14.2387C13.9068 11.3259 13.6374 11.0571 13.6374 10.7246V9.52191C13.6374 9.18938 13.9068 8.92058 14.2387 8.92058H16.0427C16.3746 8.92058 16.644 9.18938 16.644 9.52191V10.1232C17.6386 10.1232 18.448 9.31385 18.448 8.31925V3.50861C18.448 2.51401 17.6386 1.70461 16.644 1.70461H10.9103C10.2681 1.70461 9.6692 2.05038 9.34749 2.60721C9.18092 2.89465 8.8135 2.99387 8.52607 2.8261C8.23803 2.66013 8.14001 2.29211 8.30658 2.00468C8.84297 1.07803 9.84058 0.501953 10.9109 0.501953H16.6446C18.3025 0.501953 19.6507 1.85074 19.6507 3.50861Z"
+                  fill="white"
+                ></path>
+              </svg>
+              Teach with us
+            </a>
+          </li>
+          <li style="margin-right: 6px">
+            <a class="accent-nav__social-link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1.2em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li style="margin-right: 6px">
+            <a class="accent-nav__social-link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1.2em"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li style="margin-right: 6px">
+            <a class="accent-nav__social-link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1.2em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li style="margin-right: 6px">
+            <a class="accent-nav__social-link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1.2em"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li style="margin-right: 6px">
+            <a class="accent-nav__social-link">
+              <svg
+                fill="white"
+                xmlns="https://www.w3.org/2000/svg"
+                height="1.2em"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header
+      class="header show"
+      style="
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        align-items: center;
+      "
+    >
+      <svg
+        class="logo-desktop"
+        xmlns="http://www.w3.org/2000/svg"
+        width="200"
+        height="70"
+        viewBox="0 0 226 42"
+        fill="none"
+        style="width: 200px; height: 70px; margin-left: 50px"
+      >
+        <path
+          class="logo-desktop-path"
+          d="M76.2136 13.8408V27.7576H72.3845V26.1045C71.3229 27.3193 69.7701 27.9689 68.0642 27.9689C64.5731 27.9689 62.1172 26.0042 62.1172 21.7103V13.8461H66.1523V21.1135C66.1523 23.4426 67.1874 24.4778 68.9726 24.4778C70.7577 24.4778 72.1785 23.2895 72.1785 20.7279V13.8461H76.2136V13.8408Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M89.1484 20.7959C89.1484 16.6077 92.3807 13.6289 96.8066 13.6289C101.233 13.6289 104.438 16.6024 104.438 20.7959C104.438 24.9894 101.233 27.9629 96.8066 27.9629C92.3807 27.9629 89.1484 24.9894 89.1484 20.7959ZM100.351 20.7959C100.351 18.3928 98.8242 16.9404 96.8066 16.9404C94.7891 16.9404 93.2363 18.3876 93.2363 20.7959C93.2363 23.2043 94.7891 24.6514 96.8066 24.6514C98.8242 24.6514 100.351 23.2043 100.351 20.7959Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M115.28 13.6348V17.3582C114.942 17.3318 114.683 17.3054 114.377 17.3054C112.153 17.3054 110.68 18.5202 110.68 21.1873V27.7575H106.645V13.8407H110.5V15.6787C111.482 14.3319 113.141 13.6348 115.285 13.6348H115.28Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M117.695 13.8408H121.73V27.7576H117.695V13.8408Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M139.119 13.8402V27.757H135.263V26.1514C134.255 27.3661 132.781 27.9629 130.917 27.9629C126.987 27.9629 123.961 25.169 123.961 20.7959C123.961 16.4228 126.987 13.6289 130.917 13.6289C132.623 13.6289 134.07 14.1729 135.079 15.3084V13.8349H139.114L139.119 13.8402ZM135.163 20.7959C135.163 18.3928 133.61 16.9404 131.619 16.9404C129.628 16.9404 128.049 18.3876 128.049 20.7959C128.049 23.2043 129.602 24.6514 131.619 24.6514C133.637 24.6514 135.163 23.2043 135.163 20.7959Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M146.402 8.5625H142.367V27.7555H146.402V8.5625Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M149.141 26.4622L150.487 23.5679C151.729 24.3707 153.619 24.9147 155.325 24.9147C157.19 24.9147 157.887 24.4235 157.887 23.6471C157.887 21.3708 149.479 23.7 149.479 18.1385C149.479 15.4978 151.861 13.6387 155.917 13.6387C157.829 13.6387 159.952 14.077 161.272 14.8534L159.925 17.7266C158.552 16.9502 157.184 16.6914 155.917 16.6914C154.105 16.6914 153.329 17.2618 153.329 17.9854C153.329 20.3673 161.737 18.0646 161.737 23.5468C161.737 26.1347 159.334 27.9674 155.167 27.9674C152.811 27.9674 150.435 27.3231 149.141 26.4675V26.4622Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M178.226 20.9541C178.226 25.0948 175.332 27.8835 171.45 27.8835C169.279 27.8835 167.415 26.9539 166.279 25.1952V32.7742H164.441V14.1515H166.2V16.8398C167.315 15.0283 169.2 14.0459 171.45 14.0459C175.332 14.0459 178.226 16.8398 178.226 20.9541ZM176.388 20.9541C176.388 17.8011 174.191 15.6515 171.318 15.6515C168.445 15.6515 166.248 17.7958 166.248 20.9541C166.248 24.1125 168.418 26.2568 171.318 26.2568C174.218 26.2568 176.388 24.1336 176.388 20.9541Z"
+          fill="black"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M180.129 20.9541C180.129 16.919 183.076 14.0459 187.058 14.0459C191.041 14.0459 193.966 16.919 193.966 20.9541C193.966 24.9892 191.046 27.8835 187.058 27.8835C183.071 27.8835 180.129 24.9892 180.129 20.9541ZM192.102 20.9541C192.102 17.7747 189.953 15.6515 187.058 15.6515C184.164 15.6515 181.988 17.7747 181.988 20.9541C181.988 24.1336 184.159 26.2568 187.058 26.2568C189.958 26.2568 192.102 24.1336 192.102 20.9541Z"
+          fill="black"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M196.754 14.1523H198.592V27.7575H196.754V14.1523Z"
+          fill="black"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M215.288 19.8661V27.7567H213.45V20.051C213.45 17.1778 211.95 15.7043 209.362 15.7043C206.442 15.7043 204.604 17.5159 204.604 20.6161V27.7567H202.766V14.1515H204.524V16.6602C205.507 15.0071 207.345 14.0459 209.695 14.0459C213.006 14.0459 215.283 15.9578 215.283 19.8661H215.288Z"
+          fill="black"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M59.3346 24.2389C58.8699 24.5769 58.2731 24.7565 57.6815 24.7565C56.5935 24.7565 55.9756 24.1122 55.9756 22.9185V17.2568H59.4139V14.1512H55.9756V10.2852L51.9405 11.2411V14.1512H50.2188V17.2568H51.9405V22.9714C51.9405 26.2829 53.8313 27.9624 57.1375 27.9624C58.3523 27.9624 59.567 27.6772 60.3962 27.0804L59.3346 24.2336V24.2389Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M87.2878 24.2389C86.823 24.5769 86.2262 24.7565 85.6347 24.7565C84.5467 24.7565 83.9287 24.1122 83.9287 22.9185V17.2568H87.367V14.1512H83.9287V10.2852L79.8936 11.2411V14.1512H78.1719V17.2568H79.8936V22.9714C79.8936 26.2829 81.7844 27.9624 85.0907 27.9624C86.3054 27.9624 87.5202 27.6772 88.3494 27.0804L87.2878 24.2336V24.2389Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M119.713 11.8222C120.827 11.8222 121.73 10.9189 121.73 9.80465C121.73 8.69039 120.827 7.78711 119.713 7.78711C118.599 7.78711 117.695 8.69039 117.695 9.80465C117.695 10.9189 118.599 11.8222 119.713 11.8222Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M197.674 11.8222C198.788 11.8222 199.691 10.9189 199.691 9.80465C199.691 8.69039 198.788 7.78711 197.674 7.78711C196.56 7.78711 195.656 8.69039 195.656 9.80465C195.656 10.9189 196.56 11.8222 197.674 11.8222Z"
+          fill="#40A944"
+        ></path>
+        <path
+          class="logo-desktop-path"
+          d="M225.15 25.6071C224.633 26.0719 223.909 26.3043 223.133 26.3043C221.606 26.3043 220.803 25.4223 220.803 23.822V15.699H224.918V14.1462H220.803V10.2168L218.965 11.1728V14.1462H217.043V15.699H218.965V23.9223C218.965 26.4311 220.386 27.8782 222.948 27.8782C224.009 27.8782 225.097 27.5666 225.794 26.9222L225.15 25.6019V25.6071Z"
+          fill="black"
+        ></path>
+        <path
+          d="M27.3002 39.5829C33.1626 39.4561 38.4072 35.87 40.8842 30.5568C42.3208 27.4829 43.0444 24.013 42.8542 20.3582C42.2785 9.30395 33.1521 0.394029 22.082 0.0718569C9.95038 -0.282005 0 9.44655 0 21.5043C0 30.7099 5.80439 38.5583 13.9485 41.6004C13.1721 40.7871 12.6017 39.7941 12.2531 38.6217C11.7091 36.8101 11.725 34.6711 12.2954 32.2046L15.2319 19.8881H9.16343L10.1564 15.5837L10.4257 14.4429H16.5259L16.6368 13.9411L18.0628 7.76175L26.9727 6.05582L25.1506 13.9411L23.8408 19.8881L20.8197 33.2609C20.3602 35.2626 20.5398 36.8101 21.3743 37.8928C21.3743 37.8928 22.6207 39.6832 27.3002 39.5829ZM29.4128 13.4605C31.8951 12.9904 34.0288 15.1242 33.5588 17.6065C33.2947 18.9902 32.1803 20.1099 30.7912 20.374C28.3089 20.8441 26.1752 18.7103 26.6453 16.228C26.9093 14.8443 28.0237 13.7246 29.4128 13.4605Z"
+          fill="#40A944"
+        ></path>
+      </svg>
+      <nav class="nav">
+        <ul
+          class="nav_list"
+          style="list-style-type: none; padding-left: 0; overflow: hidden"
+        >
+          <li
+            class="nav__item dropdown"
+            style="margin-top: 30px; margin-right: 560px"
+          >
+            <button
+              aria-expanded="false"
+              aria-controls="category"
+              class="flex-group dropdown__toggle button-reset"
+              style="
+                --gap: 0.25rem;
+                background-color: transparent;
+                border: none;
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style="
+                  transform: rotate(0deg);
+                  transition: transform 0.3s ease;
+                  margin-right: 0.3px;
+                "
+              >
+                <!-- Big Square -->
+                <rect x="0.5" y="0.5" width="15" height="15" fill="white" />
+
+                <!-- Small Squares -->
+                <!-- Green Square -->
+                <rect
+                  x="3.5"
+                  y="3.5"
+                  width="3"
+                  height="3"
+                  fill="white"
+                  stroke="#40A944"
+                  stroke-width="0.6"
+                  rx="0.5"
+                  ry="0.5"
+                />
+                <!-- Black Squares -->
+                <rect
+                  x="9.5"
+                  y="3.5"
+                  width="3"
+                  height="3"
+                  stroke="#000000"
+                  fill="white"
+                  stroke-width="0.6"
+                  rx="0.5"
+                  ry="0.5"
+                />
+                <rect
+                  x="3.5"
+                  y="9.5"
+                  width="3"
+                  height="3"
+                  stroke="#000000"
+                  fill="white"
+                  stroke-width="0.6"
+                  rx="0.5"
+                  ry="0.5"
+                />
+                <rect
+                  x="9.5"
+                  y="9.5"
+                  width="3"
+                  height="3"
+                  stroke="#000000"
+                  fill="white"
+                  stroke-width="0.6"
+                  rx="0.5"
+                  ry="0.5"
+                />
+              </svg>
+              <span class="flex-group" style="color: #222; font-size: 18px"
+                >Category</span
+              >
+              <svg
+                class="chevron"
+                width="16"
+                height="16"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style="
+                  transform: rotate(0deg);
+                  transition: transform 0.3s ease;
+                  margin-left: none;
+                "
+              >
+                <path
+                  d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689"
+                  stroke="#222"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+          </li>
+          <div class="nav-right" style="margin-left: auto; align-items: end">
+            <ul
+              class="nav_list"
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                margin: 0;
+                overflow: hidden;
+              "
+            >
+              <li
+                class="nav__item nav__item--left"
+                style="margin-right: 20px; float: left"
+              >
+                <a
+                  class="nav__link"
+                  style="
+                    text-decoration-skip-ink: auto;
+                    text-decoration: none;
+                    color: currentColor;
+                  "
+                  >Library</a
+                >
+              </li>
+              <li class="nav__item" style="margin-right: 20px; float: left">
+                <a
+                  class="nav__link"
+                  style="
+                    text-decoration-skip-ink: auto;
+                    text-decoration: none;
+                    color: currentColor;
+                  "
+                  >Articles</a
+                >
+              </li>
+              <li class="nav__item" style="margin-right: 10px; float: left">
+                <a
+                  class="nav__link"
+                  style="
+                    text-decoration-skip-ink: auto;
+                    text-decoration: none;
+                    color: currentColor;
+                  "
+                  >Certifications</a
+                >
+              </li>
+              <li
+                class="nav__item nav__item--button"
+                style="float: left; margin-right: 20px"
+              >
+                <a
+                  class="button nav__signup-link fw-600"
+                  style="
+                    cursor: pointer;
+                    background-color: #04af2f;
+                    border: 2px solid transparent;
+                    border-radius: 0.5rem;
+                    padding-block: 0.563em;
+                    padding-inline: 1em;
+                    transition: all 0.25s ease;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.4rem;
+                    height: 25px;
+                    margin-left: 0px;
+                    margin-right: 20px;
+                    color: #fff;
+                    font-weight: 600;
+                    text-decoration-skip-ink: auto;
+                    text-decoration: none;
+                    margin-top: 10px;
+                  "
+                  >SIGN UP</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="nav-right" style="margin-left: auto; align-items: end">
+            <li
+              class="nav__item nav__item--left"
+              style="margin-right: 20px; float: left"
+            >
+              <a
+                class="nav__link"
+                style="
+                  text-decoration-skip-ink: auto;
+                  text-decoration: none;
+                  color: currentColor;
+                "
+                >Library</a
+              >
+            </li>
+            <li class="nav__item" style="margin-right: 20px; float: left">
+              <a
+                class="nav__link"
+                style="
+                  text-decoration-skip-ink: auto;
+                  text-decoration: none;
+                  color: currentColor;
+                "
+                >Articles</a
+              >
+            </li>
+            <li class="nav__item" style="margin-right: 10px; float: left">
+              <a
+                class="nav__link"
+                style="
+                  text-decoration-skip-ink: auto;
+                  text-decoration: none;
+                  color: currentColor;
+                "
+                >Certifications</a
+              >
+            </li>
+            <li class="nav__item nav__item--button" style="float: left">
+              <a
+                class="button nav__signup-link fw-600"
+                style="
+                  cursor: pointer;
+                  background-color: #04af2f;
+                  border: 2px solid transparent;
+                  border-radius: 0.5rem;
+                  padding-block: 0.563em;
+                  padding-inline: 1em;
+                  transition: all 0.25s ease;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.4rem;
+                  height: 30px;
+                  margin-left: 0px;
+                  margin-right: 20px;
+                  color: #fff;
+                  font-weight: 600;
+                  text-decoration-skip-ink: auto;
+                  text-decoration: none;
+                "
+                >SIGN UP</a
+              >
+            </li>
+          </div> -->
+        </ul>
+      </nav>
+    </header>
+    <nav class="library-nav">
+      <div class="library-nav__container">
+        <button
+          style="display: block"
+          class="library-nav__prev-button library-nav__button button-reset"
+          id="scroll_left_btn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="10"
+            height="15"
+            viewBox="0 0 10 17"
+            fill="none"
+            style="margin-left: 20px"
+          >
+            <path
+              d="M8.17969 15.459L0.963867 8.24316L8.17969 1.02734"
+              stroke="white"
+              stroke-width="1.79664"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </button>
+        <div class="library-nav__slider">
+          <ul
+            id="library-nav"
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+          >
+            <li>
+              <a>SQL</a>
+            </li>
+            <li>
+              <a>HTML</a>
+            </li>
+            <li>
+              <a>CSS</a>
+            </li>
+            <li>
+              <a>Javascript</a>
+            </li>
+            <li>
+              <a>Python</a>
+            </li>
+            <li>
+              <a>Java</a>
+            </li>
+            <li>
+              <a>C</a>
+            </li>
+            <li>
+              <a>C++</a>
+            </li>
+            <li>
+              <a>PHP</a>
+            </li>
+            <li>
+              <a>Scala</a>
+            </li>
+            <li>
+              <a>C#</a>
+            </li>
+            <li>
+              <a>Node.js</a>
+            </li>
+            <li><a>MySQL</a></li>
+            <li>
+              <a>MongoDB</a>
+            </li>
+            <li>
+              <a>PL/SQL</a>
+            </li>
+            <li style="margin-right: none">
+              <a>Swift</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="library-nav__next-button library-nav__button button-reset"
+          id="scroll_right_btn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="10"
+            height="15"
+            viewBox="0 0 10 17"
+            fill="none"
+          >
+            <path
+              d="M1.27734 15.459L8.49316 8.24316L1.27734 1.02734"
+              stroke="white"
+              stroke-width="1.79664"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <div class="hero__container hero__container--reversed">
+        <div class="hero__content">
+          <h1 class="hero__title" style="font-size: 3.75rem">
+            <span class="white-text">Simple & Easy</span>
+            <span class="text-accent-700">Learning</span>
+          </h1>
+          <div class="search-input-wrapper">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search your favourite tutorials ..."
+              aria-label="Search"
+              autocomplete="off"
+            />
+            <ul
+              class="new-search-input-dropdown"
+              id="search-results"
+              style="display: none"
+            ></ul>
+          </div>
+          <p class="white-text1" style="font-family: Verdana, sans-serif">
+            Skyrocket your career to success with our Tutorials, Video Courses,
+            and Certifications
+          </p>
+        </div>
+        <div class="hero__img-container hero--homepage__img-container">
+          <img src="hero.png" alt="Hero Image" />
+        </div>
+      </div>
+      <section
+        class="start-learning section-padding container swiper-initialized swiper-horizontal swiper-pointer-events"
+        data-spacing="small"
+      >
+        <div class="flex-group justify-between">
+          <h2
+            class="fs-800 smaller-title"
+            style="font-size: 3.5rem; margin-left: 30px; font-weight: bold"
+          >
+            Start
+            <span class="text-accent-700" style="font-weight: bold"
+              >Learning</span
+            >
+          </h2>
+          <div class="flex-group">
+            <a
+              class="button-special"
+              style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+              >See all</a
+            >
+            <div
+              style="margin-top: 0"
+              class="slider-navigation slider-navigation--white-bg start-learning__navigation"
+            >
+              <div class="flex-group">
+                <button
+                  class="icon-button icon-button--neutral start-learning__button-prev swiper-button-disabled"
+                  disabled=""
+                  tabindex="-1"
+                  aria-label="Previous slide"
+                  aria-controls="swiper-wrapper-81010f12c069da3452"
+                  aria-disabled="true"
+                >
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451"
+                      stroke="#fff"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="icon-button icon-button--neutral start-learning__button-next"
+                  style="transform: rotate(180deg)"
+                  tabindex="0"
+                  aria-label="Next slide"
+                  aria-controls="swiper-wrapper-81010f12c069da3452"
+                  aria-disabled="false"
+                >
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451"
+                      stroke="#fff"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
