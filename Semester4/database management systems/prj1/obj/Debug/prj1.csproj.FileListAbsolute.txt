@@ -1,0 +1,10 @@
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\bin\Debug\prj1.exe.config
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\bin\Debug\prj1.exe
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\bin\Debug\prj1.pdb
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.csproj.AssemblyReference.cache
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.Form1.resources
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.Properties.Resources.resources
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.csproj.GenerateResource.cache
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.csproj.CoreCompileInputs.cache
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.exe
+C:\Users\oanam\OneDrive\Documents\dbms\prj1\prj1\obj\Debug\prj1.pdb
