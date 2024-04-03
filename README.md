@@ -61,8 +61,7 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### 🤖 [Artificial Intelligence](https://github.com/oanag27/University/tree/main/Semester4/artificial%20intelligence/lab1)
 
-### ![image](https://github.com/oanag27/University/assets/115409789/de776169-feec-4e58-8c00-e8185c22570a)
-[Database Management Systems]
+### 
 
 
 
