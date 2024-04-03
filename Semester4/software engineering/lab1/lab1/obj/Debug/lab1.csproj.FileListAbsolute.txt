@@ -1,0 +1,7 @@
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\bin\Debug\lab1.exe.config
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\bin\Debug\lab1.exe
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\bin\Debug\lab1.pdb
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\obj\Debug\lab1.exe
+C:\Users\oanam\OneDrive\Documents\iss\lab1\lab1\obj\Debug\lab1.pdb
