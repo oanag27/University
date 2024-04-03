@@ -59,10 +59,11 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### 🎨 [Web Programming](https://github.com/oanag27/University/tree/main/Semester4/web%20programming)
 
-### 🤖 [Artificial Intelligence](https://github.com/oanag27/University/tree/main/Semester4/artificial%20intelligence/lab1)
+### 🤖 [Artificial Intelligence](https://github.com/oanag27/University/tree/main/Semester4/artificial%20intelligence)
 
-### 
+### 🛠️ [Software Engineering](https://github.com/oanag27/University/tree/main/Semester4/software%20engineering)
 
+### 📂 [Database Management Systems](https://github.com/oanag27/University/tree/main/Semester4/database%20management%20systems)
 
 
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
