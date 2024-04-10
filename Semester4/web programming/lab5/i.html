@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="i.css" />
+  </head>
+  <body>
+    <div id="slider-container">
+      <div id="slider">
+        <div class="image"><img src="1.jpg" alt="Image 1" /></div>
+        <div class="image"><img src="2.jpg" alt="Image 2" /></div>
+        <div class="image"><img src="3.jpg" alt="Image 3" /></div>
+        <div class="image"><img src="4.jpg" alt="Image 4" /></div>
+        <div class="image"><img src="5.jpg" alt="Image 5" /></div>
+      </div>
+    </div>
+
+    <div id="lightbox"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var slideSpeed = 50000;
+        var slideTimeout;
+        var isPaused = false;
+
+        // Set up slider
+        var slider = $("#slider");
+        var images = slider.find(".image");
+        var totalImages = images.length;
+        var imageWidth = images.outerWidth(true);
+        var sliderWidth = totalImages * imageWidth;
+        slider.width(sliderWidth);
+        // Slide function
+        function slide() {
+          if (!isPaused) {
+            slider.animate(
+              { left: "+=" + imageWidth },
+              1000,
+              "linear",
+              function () {
+                var lastImage = slider.find(".image:last");
+                lastImage.prependTo(slider);
+                slider.css("left", "0");
+                slide();
+              }
+            );
+          } else {
+            // If paused, set a timeout to check again
+            slideTimeout = setTimeout(slide, slideSpeed);
+          }
+        }
+
+        // Start sliding
+        slide();
+
+        // Pause sliding on image click and show lightbox
+        images.click(function () {
+          clearTimeout(slideTimeout);
+          isPaused = true;
+          var imageSrc = $(this).find("img").attr("src");
+          $("#lightbox")
+            .html('<img src="' + imageSrc + '">')
+            .fadeIn();
+        });
+
+        // Resume sliding on lightbox click
+        $("#lightbox").click(function () {
+          isPaused = false;
+          $(this).fadeOut();
+          slide();
+        });
+      });
+    </script>
+  </body>
+</html>
