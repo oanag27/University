@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Management System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      h2 {
+        align-items: center;
+      }
+
+      button {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Main Page</h2>
+    <button type="button" onclick="location.href='./insert_document.php'">
+      Add Document</button
+    ><br />
+    <button type="button" onclick="location.href='./browse_by_type.php'">
+      Browse by Type</button
+    ><br />
+    <button type="button" onclick="location.href='./update_document.php'">
+      Update Document</button
+    ><br />
+    <button type="button" onclick="location.href='./delete_document.php'">
+      Delete Document</button
+    ><br />
+    <button type="button" onclick="location.href='./select_document.php'">
+      All Documents</button
+    ><br />
+  </body>
+</html>
