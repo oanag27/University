@@ -1,0 +1,22 @@
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+   
+);
+
+CREATE TABLE Avatar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    powers VARCHAR(255) NOT NULL,
+    rank INT NOT NULL    
+);
+
+Create Table Logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date DATE,
+    userid INT NOT NULL,
+    text VARCHAR(255)NOT NULL,
+    FOREIGN KEY (userid) REFERENCES Users(id)
+);

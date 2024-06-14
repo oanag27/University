@@ -1,0 +1,19 @@
+via WhatsApp:
+au fost 3 tables: Users, Avatars si Logs. 
+trebuia facuta autentificare cu username si password, trebuia facuta functia de add Avatar si 
+trebuiau afisate intr-un table avatarii de la B la E(inserezi tu valorile lui B si E).
+pentru partea de update la Avatars trebuia sa poti modifica valorile, si modificarile sa 
+persiste in client-side pana apesi pe un button de “Send to backend” si atunci sa se modifice si 
+in db. toate actiunile legate de add si update trebuiau logate in Logs(id, Date si Text era in logs). 
+daca faci doar login, add, tableul cu afisare de la B la E si update direct 
+catre backend treci cu 5-6, restul punctajului e legat de Logs si de update-ul “Send to backend”
+
+
+*filter-> userul dadea 2 numere, trebuiau afisate intr-un tabel avatariile care sunt
+intre cele 2 numere(id/rank pentru avatar)
+
+Punctaje pt 6:
+1 pct oficiu 
+2 pct db conection si user login 
+1 pct add new avatar 
+2 pct filter avatars 
