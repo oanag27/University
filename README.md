@@ -71,6 +71,8 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### :key: [Public Key Cryptography](https://github.com/oanag27/University/tree/main/Semester5/public%20key%20cryptography)
 
+### 📱 [Mobile App Development](https://github.com/oanag27/University/tree/main/Semester5/mobile%20app%20development)
+
 
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
