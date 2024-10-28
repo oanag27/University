@@ -73,8 +73,7 @@ Welcome to my repository showcasing the projects and assignments from my years a
 
 ### 📱 [Mobile App Development](https://github.com/oanag27/University/tree/main/Semester5/mobile%20app%20development)
 
-### ⫴ [Parallel And Distributive Programming]
-(https://github.com/oanag27/University/tree/main/Semester5/parallel%20and%20distributed%20programming)
+### ⫴ [Parallel And Distributive Programming](https://github.com/oanag27/University/tree/main/Semester5/parallel%20and%20distributed%20programming)
 
 Explore each course for detailed insights into the projects and assignments. Your feedback and contributions are always welcome!
   
