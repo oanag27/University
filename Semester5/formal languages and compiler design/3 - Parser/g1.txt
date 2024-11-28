@@ -1,5 +1,0 @@
-N = S
-E = a b
-S = S
-P =
-S -> a S | b
