@@ -1,0 +1,23 @@
+N = declarationlist declaration type statementlist statement simplestatement assignstatement expression term factor iostatement idslist structstatement ifstatement whilestatement condition relation program
+E = IDENTIFIER bool char int float READ WRITE IF THEN ELSE WHILE DO "(" ")" "," "=" "+" "-" "*" "/" "<" "<=" "=" ">" ">=" "==" "!=" number
+S = program
+P =
+declarationlist -> declaration | declaration ";" declarationlist
+declaration -> IDENTIFIER ":" type
+type -> "bool" | "char" | "int" | "float"
+statementlist -> statement | statement ";" statementlist
+statement -> simplestatement | structstatement
+simplestatement -> assignstatement | iostatement
+assignstatement -> IDENTIFIER "=" expression
+expression -> term | expression "+" term | expression "-" term
+term -> factor | term "*" factor | term "/" factor
+factor -> "(" expression ")" | IDENTIFIER | number
+iostatement -> "READ" "(" idslist ")" | "WRITE" "(" idslist ")"
+idslist -> IDENTIFIER {"," IDENTIFIER}
+structstatement -> ifstatement | whilestatement
+ifstatement -> "IF" condition "THEN" statement "ELSE" statement | "IF" condition "THEN" statement
+whilestatement -> "WHILE" condition "DO" statement
+condition -> expression relation expression
+relation -> "<" | "<=" | "=" | ">" | ">=" | "==" | "!="
+program -> null | statement
+
