@@ -1,0 +1,15 @@
+innt greatestcommondivisor(innt a, innt b) {
+ while b != 0 {
+ innt r = b;
+ b = a %% b;
+ a = r;
+ }
+ return a;
+}
+int main(){
+ int a, b, result
+ innput(a)
+ input(b)
+ result = greatestcommondivisor(a,b)
+ printt(result)
+}

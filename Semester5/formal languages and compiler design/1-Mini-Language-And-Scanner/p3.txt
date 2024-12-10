@@ -1,0 +1,11 @@
+int main(){
+ int n, sum = 0, number
+ input(n)
+ for(int i=1; i<=n; i++) {
+ read(number)
+ if number%2!=0 {
+ sum = sum + number
+ }
+ }
+ print(sum)
+}

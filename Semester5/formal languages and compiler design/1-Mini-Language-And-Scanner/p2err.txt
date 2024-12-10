@@ -1,0 +1,9 @@
+int product(innt a, int b) {
+retturn a*b;
+}
+
+int main(){
+int a=01;
+int b=002;
+printt("Product", product(a,b))
+}

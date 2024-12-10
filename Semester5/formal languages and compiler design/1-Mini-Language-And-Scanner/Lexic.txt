@@ -1,0 +1,25 @@
+Alphabet:
+    Uppercase letters (A-Z) and lower case letters (a-z) of the English alphabet
+    Underscore character '_' can be used only in the middle of identifiers
+    Decimal digits (0-9)
+Lexic:
+    a.Special symbols, representing:
+        - operators + - * / := < <= = == >=
+        - separators [ ] { } . : ; space  ()->allowed in while, for not in if
+        - reserved words:
+            if else while int char bool input print 
+
+    b.identifiers
+    -a sequence of letters and  digits, such that the first character is a letter; the rule is:
+        - identifier ::= letter (letter | digit )
+        - letter: "A" | "B" | ... | "Z" | "a" | "b" | ... | "z"
+        - digit: "0" | "1" | "2" | ... | "9"
+        - non_zero_digit ::= "1" | "2" | ... | "9"
+
+    c.constants
+        1.integer ::= "0" | ["+"|"-"] non_zero_digit {digit}
+        2.character: character:='letter'|'digit'
+        3.string:
+            constchar:="string"
+            string:=char{string}
+            char:=letter|digit

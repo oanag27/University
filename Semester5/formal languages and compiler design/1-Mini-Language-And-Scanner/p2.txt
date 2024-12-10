@@ -1,0 +1,17 @@
+int prime(int n) {
+ if n<2 {
+ return false
+ }
+ for(int d=2; d*d<=n; d++)
+ {
+ if n%d==0 {
+ return false
+ }
+ }
+ return true
+}
+int main {
+ int n
+ input(n)
+ print(prime(n))
+}
